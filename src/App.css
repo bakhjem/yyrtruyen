@@ -1,0 +1,123 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.flex-genres{
+  display: flex;
+  flex-wrap: wrap;
+}
+.theloai tbody tr td{
+  flex: 0 0 27%;
+}
+.chapter-list .row span:last-child {
+  text-align: left !important;
+}
+body{
+  font-family: Tahoma, Geneva, sans-serif !important;
+}
+.chapter-list .row span:last-child {
+  width: 100% !important;
+}
+.breadcrumb a {
+  color: #0d9696 !important;
+}
+.danh_sach .chapter {
+  display: block;
+  color: #0d9696 !important;
+  line-height: 1.5;
+}
+.info_image {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  float: left;
+  border: 4px solid #0d9696  !important;
+  margin: 10px;
+}
+.truyen_info_right li h1 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #0d9696 !important;
+  padding-left: 25px;
+}
+.h2-manga {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #0d9696 !important;
+  font-weight: bold;
+}
+.theloai_select {
+  color: #0d9696!important;
+  font: bold 13px Open Sans, Tahoma, Geneva, sans-serif;
+}
+.btn_theodoi {
+  background: #0d9696 !important;
+}
+.cotphai .feature_title {
+  color: #0d9696 !important;
+  font-weight: bold;
+}
+.doc_nhieu span:first-child {
+  background: none repeat scroll 0 0 #0d9696 !important;
+}
+.update-title {
+  background: #0d9696 !important;
+  text-transform: uppercase;
+}
+.actived {
+  background: #0d9696 !important;
+  color: #FFF!important;
+}
+.actived:hover {
+  background: #0d9696 !important;
+  color: #FFF!important;
+}
+.head_title:hover{
+  background: #0d9696 !important;
+  color: #FFF!important;
+}
+.xemthem {
+  float: left;
+  margin-top: 5px;
+  width: 94%;
+  padding: 10px 3%;
+  position: relative;
+  font-size: 14px;
+  color: white;
+  text-align: center;
+  background: #0d9696 !important;
+  border: 0;
+  cursor: pointer;
+}
+#menu li a:hover {
+  background: #0d9696 !important;
+}
